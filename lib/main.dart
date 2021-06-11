@@ -1,16 +1,9 @@
 import 'package:flutter/material.dart';
 
+// our imports
+// import 'src/app.dart';
+import 'package:counter/src/app.dart';
+
 void main() {
   runApp(new MyApp());
-}
-
-class MyApp extends StatelessWidget {
-  @override
-  Widget build(context) {
-    return MaterialApp(
-      home: Center(
-        child: Text('Flutter'),
-      ),
-    );
-  }
 }
